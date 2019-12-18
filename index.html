@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hide and Show Div elements in javascript</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrapper">
+  <div class="wrapper_left">
+    <ul>
+      <li data-li="angular" class="active">
+        <p>Angular</p>
+      </li>
+      <li data-li="nodejs">
+        <p>Node.js</p>
+      </li>
+      <li data-li="reactjs">
+        <p>React.js</p>
+      </li>
+      <li data-li="vuejs">
+        <p>Vue.js</p>
+      </li>
+    </ul>
+  </div>
+  <div class="wrapper_right">
+    <div class="title">
+      Top Javascript Frameworks
+    </div>
+    <div class="container">
+      <div class="item angular">
+        <div class="item_info">
+          <div class="img"></div>
+          <p>Angular</p>
+        </div>
+        <p>Angular 2 is an open source JavaScript framework to build web applications in HTML and JavaScript. This tutorial looks at the various aspects of Angular 2 framework which includes the basics of the framework, the setup of Angular and how to work
+          with the various aspects of the framework. Other topics discussed in the tutorial are advanced chapters such as interfaces, nested components and services within Angular. Topics such as routing, modules, and arrays</p>
+        <p>The user should be familiar with the basics of web development and JavaScript. Since the Angular framework is built on the JavaScript framework, it becomes easier for the user to understand Angular if they know JavaScript.</p>
+      </div>
+      <div class="item nodejs" style="display: none;">
+        <div class="item_info">
+          <div class="img"></div>
+          <p>node.js</p>
+        </div>
+        <p>Node.js is a platform built on Chrome's JavaScript runtime for easily building fast and scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time
+          applications that run across distributed devices.</p>
+        <p>Node.js is an open source, cross-platform runtime environment for developing server-side and networking applications. Node.js applications are written in JavaScript, and can be run within the Node.js runtime on OS X, Microsoft Windows, and Linux.</p>
+        <p>Node.js also provides a rich library of various JavaScript modules which simplifies the development of web applications using Node.js to a great extent.</p>
+      </div>
+      <div class="item reactjs" style="display: none;">
+        <div class="item_info">
+          <div class="img"></div>
+          <p>React.js</p>
+        </div>
+        <p>React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.</p>
+        <p>Build encapsulated components that manage their own state, then compose them to make complex UIs.</p>
+        <p>Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.</p>
+      </div>
+      <div class="item vuejs" style="display: none;">
+        <div class="item_info">
+          <div class="img"></div>
+          <p>vue.js</p>
+        </div>
+        <p>Vue is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable. The core library is focused on the view layer only, and is easy to pick up and integrate
+          with other libraries or existing projects. On the other hand, Vue is also perfectly capable of powering sophisticated Single-Page Applications when used in combination with modern tooling and supporting libraries.</p>
+        <p>If you’d like to learn more about Vue before diving in, we created a video walking through the core principles and a sample project.</p>
+      </div>
+    </div>
+  </div>
+</div>
+	<script src="scripts.js"></script>
+</body>
+</html>
